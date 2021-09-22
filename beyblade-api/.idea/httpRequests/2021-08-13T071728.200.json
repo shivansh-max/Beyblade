@@ -1,0 +1,114 @@
+{
+  "msg": [
+    {
+      "_id": "dd0f1ca2",
+      "name": "VALTRYEK",
+      "series": "2017",
+      "attack": 300,
+      "burst": 300,
+      "defense": 200,
+      "weight": 400,
+      "agility": 300,
+      "stamina": 400
+    },
+    {
+      "_id": "5e5c5e92",
+      "name": "VALTRYEK",
+      "series": "2017",
+      "attack": 700,
+      "burst": 300,
+      "defense": 0,
+      "weight": 300,
+      "agility": 600,
+      "stamina": 0
+    },
+    {
+      "_id": "9db55883",
+      "name": "VALTRYEK-V2",
+      "series": "2017",
+      "attack": 600,
+      "burst": 400,
+      "defense": 100,
+      "weight": 200,
+      "agility": 800,
+      "stamina": 0
+    },
+    {
+      "_id": "1a2bb3f3",
+      "name": "XCALIUS",
+      "series": "2017",
+      "attack": 800,
+      "burst": 400,
+      "defense": 0,
+      "weight": 200,
+      "agility": 600,
+      "stamina": 0
+    },
+    {
+      "_id": "0814ba88",
+      "name": "XCALIUS-X2",
+      "series": "2017",
+      "attack": 1000,
+      "burst": 500,
+      "defense": 0,
+      "weight": 300,
+      "agility": 300,
+      "stamina": 100
+    },
+    {
+      "_id": "c4c17fed",
+      "name": "VALTRYEK-GENESIS-V3",
+      "series": "2018",
+      "attack": 900,
+      "burst": 600,
+      "defense": 0,
+      "weight": 400,
+      "agility": 700,
+      "stamina": 0
+    },
+    {
+      "_id": "3e4d624d",
+      "name": "SPRYZEN-LEGEND-S3",
+      "series": "2018",
+      "attack": 700,
+      "burst": 300,
+      "defense": 200,
+      "weight": 700,
+      "agility": 400,
+      "stamina": 200
+    },
+    {
+      "_id": "0e370416",
+      "name": "VALTRYEK-GENESIS-V3",
+      "series": "2018",
+      "attack": 400,
+      "burst": 500,
+      "defense": 200,
+      "weight": 400,
+      "agility": 500,
+      "stamina": 500
+    },
+    {
+      "_id": "706ca5b2",
+      "name": "XCALIUS-X3",
+      "series": "2018",
+      "attack": 1100,
+      "burst": 400,
+      "defense": 0,
+      "weight": 800,
+      "agility": 200,
+      "stamina": 0
+    },
+    {
+      "_id": "5619c035",
+      "name": "LUINOR-L3",
+      "series": "2018",
+      "attack": 1000,
+      "burst": 400,
+      "defense": 0,
+      "weight": 600,
+      "agility": 300,
+      "stamina": 100
+    }
+  ]
+}

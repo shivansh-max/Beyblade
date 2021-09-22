@@ -1,0 +1,339 @@
+GET http://192.168.0.6:4000/search?search=DOOMSCIZOR-D2
+Accept: application/json
+
+<> 2021-08-13T132942.200.json
+
+###
+
+GET http://192.168.0.6:4000/search?search=DOOMSCIZOR-D2
+Accept: application/json
+
+<> 2021-08-13T132908.200.json
+
+###
+
+GET http://192.168.0.6:4000/search?search=DOOMSCIZOR-D2
+Accept: application/json
+
+<> 2021-08-13T132853.200.json
+
+###
+
+GET http://192.168.0.6:4000/search?search=DOOMSCIZOR-D2
+Accept: application/json
+
+<> 2021-08-13T132826.200.json
+
+###
+
+GET http://192.168.0.6:4000/search?search=DOOMSCIZOR-D2
+Accept: application/json
+
+<> 2021-08-13T132813.200.json
+
+###
+
+GET http://192.168.0.6:4000/search?search=DOOMSCIZOR-D2
+Accept: application/json
+
+<> 2021-08-13T132059.200.json
+
+###
+
+GET http://192.168.0.6:4000/search?search=DOOMSCIZOR-D2
+Accept: application/json
+
+<> 2021-08-13T132028.200.json
+
+###
+
+GET http://192.168.0.6:4000/search?search=D
+Accept: application/json
+
+<> 2021-08-13T131916.200.json
+
+###
+
+GET http://192.168.0.6:4000/search?search=D
+Accept: application/json
+
+<> 2021-08-13T131848.500.json
+
+###
+
+GET http://192.168.0.6:4000/search?search=D
+Accept: application/json
+
+<> 2021-08-13T131535.200.json
+
+###
+
+GET http://192.168.0.6:4000/search?search=D
+Accept: application/json
+
+<> 2021-08-13T131449.200.json
+
+###
+
+GET http://192.168.0.6:4000/search?search=D
+Accept: application/json
+
+<> 2021-08-13T131426.200.json
+
+###
+
+GET http://192.168.0.6:4000/search?search=D
+Accept: application/json
+
+<> 2021-08-13T131354.200.json
+
+###
+
+GET http://192.168.0.6:4000/names
+Accept: application/json
+
+<> 2021-08-13T084410.200.json
+
+###
+
+GET http://192.168.0.6:4000/names
+
+<> 2021-08-13T082757.200.json
+
+###
+
+GET http://192.168.0.6:4000/names
+
+<> 2021-08-13T082721.200.json
+
+###
+
+GET http://192.168.0.6:4000/search
+
+<> 2021-08-13T072139.200.json
+
+###
+
+GET http://192.168.0.6:4000/search
+
+<> 2021-08-13T071728.200.json
+
+###
+
+GET http://192.168.0.6:4000/search
+
+<> 2021-08-13T071644.200.json
+
+###
+
+GET http://192.168.0.6:4000/search
+
+<> 2021-08-13T071232.200.json
+
+###
+
+GET http://192.168.0.6:4000/search
+
+<> 2021-08-13T071211.200.json
+
+###
+
+GET http://192.168.0.6:4000/search
+
+<> 2021-08-13T071138.200.json
+
+###
+
+GET http://192.168.0.6:4000/beyblades
+Accept: application/json
+
+<> 2021-08-13T071106.200.json
+
+###
+
+GET http://192.168.0.6:4000/search
+
+<> 2021-08-13T071057.200.json
+
+###
+
+GET http://192.168.0.6:4000/search
+
+<> 2021-08-13T070749.200.json
+
+###
+
+GET http://192.168.0.6:4000/search
+
+<> 2021-08-13T070728.200.json
+
+###
+
+GET http://192.168.0.6:4000/battle?bey1=5619c035&bey2=851ed81d
+Accept: application/json
+
+<> 2021-08-13T064841.200.json
+
+###
+
+GET http://192.168.0.6:4000/battle?bey1=5619c035&bey2=851ed81d
+Accept: application/json
+
+<> 2021-08-13T064826.200.json
+
+###
+
+GET http://192.168.0.6:4000/battle?bey1=5619c035&bey2=851ed81d
+Accept: application/json
+
+<> 2021-08-13T064745.404.html
+
+###
+
+GET http://192.168.0.6:4000/battle?bey1=5619c035&bey2=851ed81d
+Accept: application/json
+
+<> 2021-08-13T064725.404.html
+
+###
+
+GET http://192.168.0.6:4000/battle?bey1=5619c035&bey2=851ed81d
+Accept: application/json
+
+<> 2021-08-13T063954.404.html
+
+###
+
+GET http://192.168.0.6:4000/beyblades/battle?bey1=5619c035&bey2=851ed81d
+Accept: application/json
+
+<> 2021-08-13T062538.200.json
+
+###
+
+GET http://192.168.0.6:4000/beyblades/battle?bey1=5619c035&bey2=851ed81d
+Accept: application/json
+
+<> 2021-08-13T062508.200.json
+
+###
+
+GET http://192.168.0.6:4000/beyblades/battle?bey1=5619c035&bey2=851ed81d
+Accept: application/json
+
+<> 2021-08-13T062426.200.json
+
+###
+
+GET http://192.168.0.6:4000/beyblades
+Accept: application/json
+
+<> 2021-08-13T062402.200.json
+
+###
+
+GET http://192.168.0.6:4000/beyblades/battle
+Accept: application/json
+
+<> 2021-08-13T062330.200.json
+
+###
+
+GET http://192.168.0.6:4000/beyblades
+Accept: application/json
+
+<> 2021-08-12T210808.200.json
+
+###
+
+GET http://192.168.0.6:4000/beyblades
+Accept: application/json
+
+###
+
+GET http://192.168.0.6:4000/beyblades
+Accept: application/json
+
+<> 2021-08-11T142001.200.json
+
+###
+
+GET http://192.168.0.6:4000/beyblades
+Accept: application/json
+
+<> 2021-08-11T141808.200.json
+
+###
+
+POST http://192.168.0.6:4000/beyblades
+Content-Type: application/json
+
+{
+  "name": "fdas",
+  "series": "fdas",
+  "attack": 800,
+  "burst": 800,
+  "defense": 800,
+  "weight": 800,
+  "agility": 800,
+  "stamina": 800
+}
+
+<> 2021-08-11T141801.201.json
+
+###
+
+POST http://192.168.0.6:4000/beyblades
+Content-Type: application/json
+
+{
+  "name": "fdas",
+  "series": "fdas",
+  "attack": 800,
+  "burst": 800,
+  "defense": 800,
+  "weight": 800,
+  "agility": 800,
+  "stamina": 800,
+}
+
+<> 2021-08-11T141728.400.html
+
+###
+
+GET http://192.168.0.6:4000/beyblades
+Accept: application/json
+
+<> 2021-08-11T140545.200.json
+
+###
+
+GET http://192.168.0.6:4000/beyblades
+Accept: application/json
+
+<> 2021-08-11T140202.200.json
+
+###
+
+GET http://192.168.0.6:4000/beyblades
+Accept: application/json
+
+<> 2021-08-11T140042.200.json
+
+###
+
+GET http://192.168.0.6:4000/beyblades
+Accept: application/json
+
+###
+
+GET http://192.168.0.6:4000/beyblades/
+Accept: application/json
+
+###
+
+GET http://190.168.0.6:4000/beyblades/
+Accept: application/json
+
+###
+

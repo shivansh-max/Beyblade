@@ -1,0 +1,24 @@
+{
+  "c9b66f16": {
+    "_id": "c9b66f16",
+    "name": "DOOMSCIZOR-D2",
+    "series": "2017",
+    "attack": 100,
+    "burst": 200,
+    "defense": 100,
+    "weight": 400,
+    "agility": 300,
+    "stamina": 800
+  },
+  "7f06872a": {
+    "_id": "7f06872a",
+    "name": "DOOMSCIZOR-D2",
+    "series": "2017",
+    "attack": 600,
+    "burst": 300,
+    "defense": 0,
+    "weight": 300,
+    "agility": 600,
+    "stamina": 200
+  }
+}

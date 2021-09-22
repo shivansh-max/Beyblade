@@ -1,0 +1,42 @@
+{
+	"name": "beyblade-api",
+	"version": "1.0.0",
+	"description": "This is an api used for the beyblade app you will find in this project (1 level upper) this api uses nodejs(express, mongoose, nodemon, dotenv). The database is mongodb.",
+	"main": "index.js",
+	"scripts": {
+		"test": "node tester.js",
+		"dev-start": "nodemon server.js",
+		"start": "node server.js"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/shivansh-max/BEYBLADE.git"
+	},
+	"keywords": [
+		"beyblade",
+		"api",
+		"rest",
+		"node",
+		"mongo",
+		"mongodb",
+		"express",
+		"mongoose"
+	],
+	"author": "Shivansh Upadhyay",
+	"license": "ISC",
+	"bugs": {
+		"url": "https://github.com/shivansh-max/BEYBLADE/issues"
+	},
+	"homepage": "https://github.com/shivansh-max/BEYBLADE#readme",
+	"dependencies": {
+		"express": "^4.17.1",
+		"mongoose": "^5.13.6",
+		"morgan": "^1.10.0",
+		"random-string": "^0.2.0"
+	},
+	"devDependencies": {
+		"axios": "^0.21.1",
+		"dotenv": "^10.0.0",
+		"nodemon": "^2.0.12"
+	}
+}

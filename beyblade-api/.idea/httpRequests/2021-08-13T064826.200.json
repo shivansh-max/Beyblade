@@ -1,0 +1,11 @@
+{
+  "_id": "5619c035",
+  "name": "LUINOR-L3",
+  "series": "2018",
+  "attack": 1000,
+  "burst": 400,
+  "defense": 0,
+  "weight": 600,
+  "agility": 300,
+  "stamina": 100
+}

@@ -1,0 +1,532 @@
+[
+  {
+    "name": "BETROMOTH-B2",
+    "series": "2017",
+    "attack": 300,
+    "burst": 400,
+    "defense": 100,
+    "weight": 600,
+    "agility": 400,
+    "stamina": 200
+  },
+  {
+    "name": "DOOMSCIZOR",
+    "series": "2017",
+    "attack": 600,
+    "burst": 300,
+    "defense": 0,
+    "weight": 400,
+    "agility": 500,
+    "stamina": 100
+  },
+  {
+    "name": "DOOMSCIZOR-D2",
+    "series": "2017",
+    "attack": 100,
+    "burst": 200,
+    "defense": 100,
+    "weight": 400,
+    "agility": 300,
+    "stamina": 800
+  },
+  {
+    "name": "DOOMSCIZOR-D2",
+    "series": "2017",
+    "attack": 600,
+    "burst": 300,
+    "defense": 0,
+    "weight": 300,
+    "agility": 600,
+    "stamina": 200
+  },
+  {
+    "name": "EVIPERO",
+    "series": "2017",
+    "attack": 200,
+    "burst": 200,
+    "defense": 700,
+    "weight": 300,
+    "agility": 500,
+    "stamina": 0
+  },
+  {
+    "name": "EVIPERO-E2",
+    "series": "2017",
+    "attack": 100,
+    "burst": 200,
+    "defense": 300,
+    "weight": 600,
+    "agility": 400,
+    "stamina": 400
+  },
+  {
+    "name": "FENGRIFF-F2",
+    "series": "2017",
+    "attack": 500,
+    "burst": 200,
+    "defense": 200,
+    "weight": 300,
+    "agility": 700,
+    "stamina": 100
+  },
+  {
+    "name": "GIANON-G2",
+    "series": "2017",
+    "attack": 600,
+    "burst": 200,
+    "defense": 300,
+    "weight": 400,
+    "agility": 200,
+    "stamina": 200
+  },
+  {
+    "name": "HORUSOOD",
+    "series": "2017",
+    "attack": 0,
+    "burst": 200,
+    "defense": 300,
+    "weight": 400,
+    "agility": 300,
+    "stamina": 700
+  },
+  {
+    "name": "HORUSOOD-H2",
+    "series": "2017",
+    "attack": 0,
+    "burst": 100,
+    "defense": 100,
+    "weight": 500,
+    "agility": 300,
+    "stamina": 1000
+  },
+  {
+    "name": "IFRITOR-I2",
+    "series": "2017",
+    "attack": 700,
+    "burst": 200,
+    "defense": 300,
+    "weight": 300,
+    "agility": 400,
+    "stamina": 200
+  },
+  {
+    "name": "JORMUNTOR-J2",
+    "series": "2017",
+    "attack": 100,
+    "burst": 200,
+    "defense": 200,
+    "weight": 400,
+    "agility": 300,
+    "stamina": 900
+  },
+  {
+    "name": "KERBUES",
+    "series": "2017",
+    "attack": 300,
+    "burst": 200,
+    "defense": 300,
+    "weight": 300,
+    "agility": 600,
+    "stamina": 200
+  },
+  {
+    "name": "KERBUES-K2",
+    "series": "2017",
+    "attack": 300,
+    "burst": 200,
+    "defense": 100,
+    "weight": 500,
+    "agility": 400,
+    "stamina": 300
+  },
+  {
+    "name": "KERBUES-K2",
+    "series": "2017",
+    "attack": 0,
+    "burst": 200,
+    "defense": 800,
+    "weight": 500,
+    "agility": 300,
+    "stamina": 100
+  },
+  {
+    "name": "MINOBOROS",
+    "series": "2017",
+    "attack": 700,
+    "burst": 300,
+    "defense": 0,
+    "weight": 400,
+    "agility": 500,
+    "stamina": 0
+  },
+  {
+    "name": "NEPSRTIUS-N2",
+    "series": "2017",
+    "attack": 400,
+    "burst": 200,
+    "defense": 200,
+    "weight": 400,
+    "agility": 400,
+    "stamina": 300
+  },
+  {
+    "name": "NEPSTRIUS-N2",
+    "series": "2017",
+    "attack": 500,
+    "burst": 200,
+    "defense": 200,
+    "weight": 400,
+    "agility": 400,
+    "stamina": 300
+  },
+  {
+    "name": "ODAX",
+    "series": "2017",
+    "attack": 600,
+    "burst": 300,
+    "defense": 200,
+    "weight": 500,
+    "agility": 200,
+    "stamina": 100
+  },
+  {
+    "name": "ODAX-O2",
+    "series": "2017",
+    "attack": 700,
+    "burst": 300,
+    "defense": 200,
+    "weight": 400,
+    "agility": 500,
+    "stamina": 0
+  },
+  {
+    "name": "QUETZIKO-Q2",
+    "series": "2017",
+    "attack": 100,
+    "burst": 300,
+    "defense": 900,
+    "weight": 600,
+    "agility": 100,
+    "stamina": 100
+  },
+  {
+    "name": "ROKTAVOR",
+    "series": "2017",
+    "attack": 300,
+    "burst": 200,
+    "defense": 100,
+    "weight": 500,
+    "agility": 400,
+    "stamina": 300
+  },
+  {
+    "name": "ROKTAVOR-R2",
+    "series": "2017",
+    "attack": 100,
+    "burst": 200,
+    "defense": 100,
+    "weight": 700,
+    "agility": 100,
+    "stamina": 900
+  },
+  {
+    "name": "SPRYZEN",
+    "series": "2017",
+    "attack": 100,
+    "burst": 200,
+    "defense": 500,
+    "weight": 600,
+    "agility": 400,
+    "stamina": 100
+  },
+  {
+    "name": "SPRYZEN",
+    "series": "\"2017\"",
+    "attack": 300,
+    "burst": 200,
+    "defense": 300,
+    "weight": 300,
+    "agility": 500,
+    "stamina": 300
+  },
+  {
+    "name": "SPRYZEN-S2",
+    "series": "2017",
+    "attack": 500,
+    "burst": 200,
+    "defense": 200,
+    "weight": 400,
+    "agility": 300,
+    "stamina": 500
+  },
+  {
+    "name": "TREPTUNE",
+    "series": "2017",
+    "attack": 0,
+    "burst": 200,
+    "defense": 100,
+    "weight": 800,
+    "agility": 100,
+    "stamina": 700
+  },
+  {
+    "name": "UNICREST",
+    "series": "2017",
+    "attack": 0,
+    "burst": 200,
+    "defense": 700,
+    "weight": 500,
+    "agility": 100,
+    "stamina": 400
+  },
+  {
+    "name": "UNICREST-U2",
+    "series": "2017",
+    "attack": 200,
+    "burst": 200,
+    "defense": 1000,
+    "weight": 300,
+    "agility": 100,
+    "stamina": 200
+  },
+  {
+    "name": "VALTRYEK",
+    "series": "2017",
+    "attack": 300,
+    "burst": 300,
+    "defense": 200,
+    "weight": 400,
+    "agility": 300,
+    "stamina": 400
+  },
+  {
+    "name": "VALTRYEK",
+    "series": "2017",
+    "attack": 700,
+    "burst": 300,
+    "defense": 0,
+    "weight": 300,
+    "agility": 600,
+    "stamina": 0
+  },
+  {
+    "name": "VALTRYEK-V2",
+    "series": "2017",
+    "attack": 600,
+    "burst": 400,
+    "defense": 100,
+    "weight": 200,
+    "agility": 800,
+    "stamina": 0
+  },
+  {
+    "name": "WYVRON",
+    "series": "2017",
+    "attack": 0,
+    "burst": 200,
+    "defense": 800,
+    "weight": 300,
+    "agility": 400,
+    "stamina": 200
+  },
+  {
+    "name": "WYVRON-W2",
+    "series": "2017",
+    "attack": 200,
+    "burst": 200,
+    "defense": 700,
+    "weight": 500,
+    "agility": 200,
+    "stamina": 200
+  },
+  {
+    "name": "XCALIUS",
+    "series": "2017",
+    "attack": 800,
+    "burst": 400,
+    "defense": 0,
+    "weight": 200,
+    "agility": 600,
+    "stamina": 0
+  },
+  {
+    "name": "XCALIUS-X2",
+    "series": "2017",
+    "attack": 1000,
+    "burst": 500,
+    "defense": 0,
+    "weight": 300,
+    "agility": 300,
+    "stamina": 100
+  },
+  {
+    "name": "YEGDRION",
+    "series": "2017",
+    "attack": 100,
+    "burst": 200,
+    "defense": 100,
+    "weight": 400,
+    "agility": 300,
+    "stamina": 800
+  },
+  {
+    "name": "YEGDRION-Y2",
+    "series": "2017",
+    "attack": 0,
+    "burst": 200,
+    "defense": 300,
+    "weight": 600,
+    "agility": 200,
+    "stamina": 800
+  },
+  {
+    "name": "ZEUTRON-Z2",
+    "series": "2017",
+    "attack": 0,
+    "burst": 200,
+    "defense": 200,
+    "weight": 800,
+    "agility": 0,
+    "stamina": 900
+  },
+  {
+    "name": "VALTRYEK-GENESIS-V3",
+    "series": "2018",
+    "attack": 900,
+    "burst": 600,
+    "defense": 0,
+    "weight": 400,
+    "agility": 700,
+    "stamina": 0
+  },
+  {
+    "name": "WYVRON-W3",
+    "series": "2018",
+    "attack": 0,
+    "burst": 100,
+    "defense": 1000,
+    "weight": 700,
+    "agility": 200,
+    "stamina": 500
+  },
+  {
+    "name": "FAFNIR-F3",
+    "series": "2018",
+    "attack": 0,
+    "burst": 100,
+    "defense": 600,
+    "weight": 600,
+    "agility": 0,
+    "stamina": 1000
+  },
+  {
+    "name": "ROKTAVOR-R3",
+    "series": "2018",
+    "attack": 200,
+    "burst": 200,
+    "defense": 200,
+    "weight": 500,
+    "agility": 500,
+    "stamina": 900
+  },
+  {
+    "name": "SPRYZEN-LEGEND-S3",
+    "series": "2018",
+    "attack": 700,
+    "burst": 300,
+    "defense": 200,
+    "weight": 700,
+    "agility": 400,
+    "stamina": 200
+  },
+  {
+    "name": "CODNITE-C3",
+    "series": "2018",
+    "attack": 800,
+    "burst": 200,
+    "defense": 100,
+    "weight": 600,
+    "agility": 700,
+    "stamina": 0
+  },
+  {
+    "name": "DOOMSCIZOR-D3",
+    "series": "2018",
+    "attack": 400,
+    "burst": 500,
+    "defense": 400,
+    "weight": 600,
+    "agility": 300,
+    "stamina": 100
+  },
+  {
+    "name": "VALTRYEK-GENESIS-V3",
+    "series": "2018",
+    "attack": 400,
+    "burst": 500,
+    "defense": 200,
+    "weight": 400,
+    "agility": 500,
+    "stamina": 500
+  },
+  {
+    "name": "SATOMB-S3",
+    "series": "2018",
+    "attack": 100,
+    "burst": 100,
+    "defense": 1000,
+    "weight": 1000,
+    "agility": 200,
+    "stamina": 100
+  },
+  {
+    "name": "XCALIUS-X3",
+    "series": "2018",
+    "attack": 1100,
+    "burst": 400,
+    "defense": 0,
+    "weight": 800,
+    "agility": 200,
+    "stamina": 0
+  },
+  {
+    "name": "GARUDA-G3",
+    "series": "2018",
+    "attack": 0,
+    "burst": 0,
+    "defense": 400,
+    "weight": 400,
+    "agility": 700,
+    "stamina": 1000
+  },
+  {
+    "name": "JINNIUS-J3",
+    "series": "2018",
+    "attack": 200,
+    "burst": 200,
+    "defense": 800,
+    "weight": 600,
+    "agility": 100,
+    "stamina": 600
+  },
+  {
+    "name": "FAFNIR-F3",
+    "series": "2018",
+    "attack": 100,
+    "burst": 100,
+    "defense": 300,
+    "weight": 800,
+    "agility": 200,
+    "stamina": 900
+  },
+  {
+    "name": "LUINOR-L3",
+    "series": "2018",
+    "attack": 1000,
+    "burst": 400,
+    "defense": 0,
+    "weight": 600,
+    "agility": 300,
+    "stamina": 100
+  }
+]
