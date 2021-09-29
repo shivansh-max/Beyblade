@@ -1,9 +1,8 @@
 import React from 'react';
 import Me from "../../../../Assets/Me.jpg";
-import Favorite from './Favorite';
 import Favorites from './Favorites';
 
-function AboutTheMaker(props) {
+function AboutTheMaker() {
 	return (
 		<div className="about-the-maker">
 			<div className="center">

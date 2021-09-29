@@ -21,5 +21,23 @@ router.get('/', async (req, res) => {
 	}
 })
 
+// Creating music
+router.post('/', async (req, res) => {
+	// Creating the music object
+	const music = new Music({
+		_id: req.body._id,
+		name: req.body.name
+	})
+
+	try   {
+		// Saving the object and then returning all the music in total
+		await music.save();
+		res.status(201).json(await Music.find())
+	} catch (e) {
+		// Returrning the error
+		res.status(400).json({message: e.message});
+	}
+})
+
 // Exports
 module.exports = router;

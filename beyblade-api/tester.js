@@ -49,6 +49,10 @@ axios.post(`${api_url}users/conversation/add?id=ljdQQdnb`, {"from": shu_id, "val
 
 axios.get(`${api_url}users/conversations?id=${shu_id}`).then(res => console.log(res.data));
 
+axios.post(`${api_url}music`, {_id: shu_id, name: "fdsaf"}).then (
+	res => console.log(res.data),
+	err => console.error(err.data)
+)
 
 axios.get(`${api_url}music`).then (
 		res => console.log(res.data),

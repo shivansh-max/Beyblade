@@ -131,13 +131,13 @@ app.use('/your url', myrouter)
     QUERY PARAMS: [new_contact_id, user_id]
     ROUTE: /users/contacts/add/
 
-### CONVERSATIONS
+#### CONVERSATIONS
     Get All Conversations Of A User
     TYPE: GET
     QUERY PARAMS: [id]
     ROUTE: /users/conversations/
 
-### NEW
+#### NEW
     Making A New Conversation
     TYPE: POST
     ROUTE: /conversation/new/
@@ -148,7 +148,7 @@ app.use('/your url', myrouter)
 }
 ```
 
-### ADD
+#### ADD
     Adding A Conversation
     TYPE: POST
     ROUTE: /conversation/add
@@ -161,5 +161,22 @@ app.use('/your url', myrouter)
 }
 ```
 
+### Music
+#### Get
+    Getting the songs
+    TYPE: GET
+    ROUTE: /music/
+    
+#### Add
+    Adding a song
+    TYPE: Post
+    ROUTE: /music/
+    BODY: 
+```json5
+{
+  _id: "",
+  name: ""
+}
+```
 
 ![](./beyblade-website/src/Assets/Logo.png?raw=true)"# Beyblade" 

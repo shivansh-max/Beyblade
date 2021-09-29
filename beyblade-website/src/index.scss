@@ -205,14 +205,14 @@ code {
 
 .home {
 	.desktop {
-		$margin-around-pods: 10px;
-		$padding-within-pods: 10px;
+		$margin-around-pods: 1%;
+		$padding-within-pods: 0.5%;
 		$icon_w_h: 80px;
 		
 		img.logo {
 			margin: 0;
 			padding: 0;
-			width: 99vw;
+			width: 75vw;
 		}
 		
 		.pods {
@@ -400,7 +400,7 @@ code {
 					border: none;
 					
 					img {
-						width: 99vw;
+						width: 95vw;
 					}
 					
 					img.spin {
