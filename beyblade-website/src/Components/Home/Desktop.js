@@ -1,5 +1,5 @@
 import React from 'react';
-import Logo from '../../Shared/Logo';
+import Logo from '../../Public/Logo';
 import AboutTheMaker from './Pods/AboutTheMaker/AboutTheMaker';
 import TitlePod from './Pods/TitlePod';
 import Simulator from './Pods/Simulator/Simulator';

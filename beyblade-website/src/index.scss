@@ -1,5 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Alfa+Slab+One&family=Amatic+SC&family=DM+Mono:ital,wght@1,300&family=Fira+Sans:wght@200&family=Handlee&family=Indie+Flower&family=Itim&family=Londrina+Outline&family=Montserrat:wght@200&family=Mukta:wght@200&family=Neucha&family=Risque&family=Roboto:wght@500&family=Varela+Round&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Alfa+Slab+One&family=Amatic+SC&family=DM+Mono:ital,wght@1,300&family=Fira+Sans:wght@200&family=Handlee&family=IBM+Plex+Sans:wght@100&family=Indie+Flower&family=Itim&family=Londrina+Outline&family=Londrina+Shadow&family=Londrina+Solid&family=Montserrat:wght@200&family=Mukta:wght@200&family=Neucha&family=Risque&family=Roboto:wght@500&family=Varela+Round&display=swap');
 $ff-AlfaSlabOne: 'Alfa Slab One', cursive;
 $ff-Amatic-SC: 'Amatic SC', cursive;
 $ff-DM-MONO: 'DM Mono', monospace;
@@ -15,6 +14,8 @@ $ff-Roboto: 'Roboto', sans-serif;
 $ff-Varela-Round: 'Varela Round', sans-serif;
 $ff-Risque: 'Risque', cursive;
 $ff-Londrina-Outline: 'Londrina Outline', cursive;
+$ff-Londrina-Solid: 'Londrina Solid', cursive;
+$ff-Londrina-Shadow: 'Londrina Shadow', cursive;
 
 $dull: #1e1d1d;
 $regular: #F6F6F6;
@@ -25,10 +26,17 @@ $useless: #000000;
 $casual: #757575;
 $energized: #006fff;
 $mid-happy: #cbcbcb;
+$fill: #a972cb;
+$pulse: #ef6eae;
+$close: #ff7f82;
+$raise: #ffa260;
+$up: #e4cb58;
+$slide: #8fc866;
+$offset: #19bc8b;
 
 $theme: false;
 $nav-height: 45px;
-$mobile-view: 900px;
+$mobile-view: 700px;
 $transition-fast-speed: 175ms;
 $transition-medium-speed: 250ms;
 $transition-slow-speed: 500ms;
@@ -230,7 +238,7 @@ code {
 					@include pod;
 					width: 100%;
 					position: relative;
-					height: calc(10vw + 61px);
+					height: calc(10vw + 70px);
 					
 					.control {
 						button {
@@ -415,7 +423,7 @@ code {
 						height: 7vh;
 						width: 100vw;
 						font-size: 6vh;
-						background-image: linear-gradient(90deg, cyan, blue);
+						background-image: linear-gradient(cyan, blue);
 						background-clip: text;
 						font-family: $ff-Londrina-Outline;
 						font-weight: bolder;
@@ -498,6 +506,27 @@ code {
 				color: transparent;
 			}
 		}
+	}
+}
+
+.music {
+	height: getMaxWidthHeightWithHeader('h');
+	@include center;
+	
+	.center {
+		button {
+			height: 9vh;
+			width: 27vh;
+			border: $exhilarated 5px solid;
+			border-radius: 5px;
+			font-family: $ff-Londrina-Shadow;
+			color: $exhilarated;
+		}
+	}
+	
+	iframe {
+		width: 75vw;
+		height: 45vw;
 	}
 }
 

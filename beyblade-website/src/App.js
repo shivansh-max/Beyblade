@@ -1,4 +1,4 @@
-import Router from "./Shared/Router";
+import Router from "./Public/Router";
 
 function App() {
 	return (

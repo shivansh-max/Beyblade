@@ -1,5 +1,5 @@
 import React, {useState} from 'react';
-import {getRandomBey} from '../../../../Shared/BeybladeList';
+import {getRandomBey} from '../../../../Public/BeybladeList';
 
 function startBattle(changSpacing, setBey1Spin, setBey2Spin) {
 	setBey1Spin(true);

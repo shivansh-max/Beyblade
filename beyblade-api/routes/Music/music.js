@@ -12,10 +12,10 @@ router.get('/', async (req, res) => {
 	try {
 		// Getting the music
 		const music_videos = await Music.find();
-
+		console.log(music_videos, "called");
 		// Returning the Music
 		res.json(music_videos)
-	} catch (e) {
+	} catch (err) {
 		// Sending error
 		res.status(500).json({ message: err.message });
 	}

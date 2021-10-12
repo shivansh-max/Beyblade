@@ -4,7 +4,7 @@ import Simulator from './Pods/Simulator/Simulator';
 import Links from './Pods/Links/Links';
 import PassItOn from './Pods/PassItOn';
 import AboutTheMaker from './Pods/AboutTheMaker/AboutTheMaker';
-import Logo from '../../Shared/Logo';
+import Logo from '../../Public/Logo';
 
 function Mobile(props) {
 	return (

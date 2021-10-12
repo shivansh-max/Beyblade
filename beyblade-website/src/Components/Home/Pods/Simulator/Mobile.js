@@ -1,5 +1,5 @@
 import React, {useState} from 'react';
-import {getRandomBey} from '../../../../Shared/BeybladeList';
+import {getRandomBey} from '../../../../Public/BeybladeList';
 
 function Mobile(props) {
 	const [beyAvatar, setBeyAvatar] = useState(getRandomBey());

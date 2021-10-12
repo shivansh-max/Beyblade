@@ -5,9 +5,11 @@ function Favorites(props) {
 	return (
 		<table>
 			<thead>
-			<th>#</th>
-			<th>Prop</th>
-			<th>Value</th>
+			<tr>
+				<th>#</th>
+				<th>Prop</th>
+				<th>Value</th>
+			</tr>
 			</thead>
 			<tbody>
 			<Favorite num={1} prop={"Food"} value={"Pizza"} />

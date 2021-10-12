@@ -1,7 +1,7 @@
 import React, {useState} from 'react';
 import Links from "./Links/Links";
 import {IoFastFood, IoFastFoodOutline} from "react-icons/all";
-import Logo from "../../Shared/Logo";
+import Logo from "../../Public/Logo";
 
 function Header(props) {
 	const [open, setOpen] = useState(false);
