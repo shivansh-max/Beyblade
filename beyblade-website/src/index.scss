@@ -510,10 +510,9 @@ code {
 }
 
 .music {
-	height: getMaxWidthHeightWithHeader('h');
-	@include center;
-	
-	.center {
+	.button {
+		@include center;
+		
 		button {
 			height: 9vh;
 			width: 27vh;
@@ -524,9 +523,60 @@ code {
 		}
 	}
 	
-	iframe {
-		width: 75vw;
-		height: 45vw;
+	.desktop {
+		.center {
+			height: getMaxWidthHeightWithHeader('h');
+		}
+		
+		.content {
+			@include center;
+			
+			button {
+				color: $slide;
+			}
+		}
+		
+		iframe {
+			width: 75vw;
+			height: 45vw;
+		}
+		
+		button#prev, button#next {
+			margin: 20px;
+			border: none;
+		}
+	}
+	
+	.mobile {
+		display: none;
+		width: 100vw;
+		height: getMaxWidthHeightWithHeader('h');
+		
+		.content {
+			width: 100vw;
+
+			button {
+				color: $slide;
+			}
+		}
+		
+		iframe {
+			width: 100vw;
+		}
+		
+		button#prev, button#next {
+			margin: 20px;
+			border: none;
+		}
+	}
+	
+	.center-thanks {
+		@include center;
+		height: fit-content;
+		
+		a {
+			color: $fill;
+		}
 	}
 }
 
@@ -609,6 +659,16 @@ code {
 		.mobile {
 			display: flex;
 			
+		}
+	}
+	
+	.music {
+		.desktop {
+			display: none;
+		}
+		
+		.mobile {
+			display: flex;
 		}
 	}
 }

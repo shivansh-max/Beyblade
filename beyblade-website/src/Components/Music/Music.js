@@ -1,33 +1,26 @@
 import React, {useState} from 'react';
-import {getMusic} from '../../Public/Api';
-import {next, prev} from './Pagination';
-import Video from './Video';
+import Desktop from './Views/Desktop';
+import Mobile from './Views/Mobile';
+import Thanks from './Public/Thanks';
+
+/*
+	DONE : Get Links
+	DONE: Work on html markup
+	DONE: Work on sass
+	DONE: Button
+*/
 
 function Music(props) {
 	const [songs, setSongs] = useState();
 	const [currentSong, setCurrentSong] = useState(0);
 
-
 	return (
 		<div className="music">
-			<button onClick={() => prev(currentSong, setCurrentSong, songs.length)}>-</button>
-			{
-				songs === undefined || songs === null ? (
-					<div className="center">
-						<button onClick={() => getMusic(setSongs)}><h1>Fetch Songs</h1></button>
-					</div>
-				) : <Video current_song={songs[currentSong]["_id"]} />
-			}
-			<button onClick={() => next(currentSong, setCurrentSong, songs.length)}>+</button>
+			<Desktop currentSong={currentSong} setCurrentSong={setCurrentSong} setSongs={setSongs} songs={songs} />
+			<Mobile currentSong={currentSong} setCurrentSong={setCurrentSong} setSongs={setSongs} songs={songs} />
+			<Thanks />
 		</div>
 	);
 }
 
 export default Music;
-
-/*
-	DONE : Get Links
-	DONE: Work on html markup
-	TODO: Work on sass
-	TODO: Button
-*/
