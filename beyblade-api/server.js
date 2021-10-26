@@ -9,7 +9,7 @@ const morgan = require('morgan');
 const beybladeRoutes = require('./routes/Beyblades/beyblades');
 const battleRouter = require('./routes/Battle/battle');
 const searchRouter = require('./routes/Search/search');
-const namesRouter = require('./routes/Names/Names');
+const namesRouter = require('./routes/Names/names');
 const userRouter = require('./routes/User/user');
 const musicRouter = require('./routes/Music/music')
 

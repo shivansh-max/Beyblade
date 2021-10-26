@@ -5,6 +5,7 @@ import TitlePod from './Pods/TitlePod';
 import Simulator from './Pods/Simulator/Simulator';
 import Links from './Pods/Links/Links';
 import PassItOn from './Pods/PassItOn';
+import How from './Pods/How/How';
 
 function Desktop(props) {
 	return (
@@ -23,6 +24,8 @@ function Desktop(props) {
 					<PassItOn />
 				</div>
 			</div>
+
+			<How />
 		</div>
 	);
 }

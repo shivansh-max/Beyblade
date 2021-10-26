@@ -3,7 +3,9 @@ import {BrowserRouter, Route, Switch} from "react-router-dom";
 import Home from "../Components/Home/Home";
 import Header from "../Components/Header/Header";
 import Music from '../Components/Music/Music';
-import Battle from '../Components/Battle/Battle';
+import Lab from '../Components/Lab/Lab';
+import Error404 from './Error404';
+import Name from '../Components/Name/Name';
 
 function Router(props) {
 	return (
@@ -12,8 +14,9 @@ function Router(props) {
 			<Switch>
 				<Route path={'/home'} component={Home} />
 				<Route path={'/music'} component={Music} />
-				<Route path={'/battle'} component={Battle} />
-				<Route path={'/'} component={Home} />
+				<Route path={'/names'} component={Name} />
+				<Route path={'/lab'} component={Lab} />
+				<Route path={'/'} component={Error404} />
 			</Switch>
 		</BrowserRouter>
 	);

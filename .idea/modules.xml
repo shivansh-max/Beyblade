@@ -3,6 +3,7 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/.idea/BEYBLADE.iml" filepath="$PROJECT_DIR$/.idea/BEYBLADE.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../FireShipFirebaseReactChatApp/.idea/FireShipFirebaseReactChatApp.iml" filepath="$PROJECT_DIR$/../FireShipFirebaseReactChatApp/.idea/FireShipFirebaseReactChatApp.iml" />
     </modules>
   </component>
 </project>

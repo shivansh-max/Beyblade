@@ -68,7 +68,7 @@ app.use('/your url', myrouter)
 
 #### BATTLE
 
-    Battle
+    Lab
     TYPE: get
     QUERY PARAMS: [bey_1_id, bey_2_id]
     ROUTE: /battle/
@@ -77,14 +77,33 @@ app.use('/your url', myrouter)
 
     SEARCH
     TYPE: GET
-    QUERY PARAMS: [what_to_search]
+    QUERY PARAMS: [search (what to serch)]
     ROUTE: /search/
 
 ### NAMES
 
+####GET
     Names
     TYPE: GET
     ROUTE: /names/
+
+#### SEARCH BOTH
+    SEARCH
+    TYPE: GET
+    QUERY PARAMS: [search (what to serch)]
+    ROUTE: /both/
+
+#### SEARCH Hasbro
+    SEARCH
+    TYPE: GET
+    QUERY PARAMS: [search (what to serch)]
+    ROUTE: /hasbro/
+
+#### SEARCH tt
+    SEARCH
+    TYPE: GET
+    QUERY PARAMS: [search (what to serch)]
+    ROUTE: /tt/
 
 ### USERS
 

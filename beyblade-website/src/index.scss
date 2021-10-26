@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Alfa+Slab+One&family=Amatic+SC&family=DM+Mono:ital,wght@1,300&family=Fira+Sans:wght@200&family=Handlee&family=IBM+Plex+Sans:wght@100&family=Indie+Flower&family=Itim&family=Londrina+Outline&family=Londrina+Shadow&family=Londrina+Solid&family=Montserrat:wght@200&family=Mukta:wght@200&family=Neucha&family=Risque&family=Roboto:wght@500&family=Varela+Round&display=swap');
+
 $ff-AlfaSlabOne: 'Alfa Slab One', cursive;
 $ff-Amatic-SC: 'Amatic SC', cursive;
 $ff-DM-MONO: 'DM Mono', monospace;
@@ -33,6 +34,11 @@ $raise: #ffa260;
 $up: #e4cb58;
 $slide: #8fc866;
 $offset: #19bc8b;
+$weird: #fffe00;
+$rober: #303180;
+$beast: #0081c2;
+$mrbeast: #00adef;
+$free-guy: #00ffb7;
 
 $theme: false;
 $nav-height: 45px;
@@ -67,6 +73,38 @@ $In-Out-Cubic: cubic-bezier(0.65, 0.05, 0.36, 1);
 	display: flex;
 	justify-content: center;
 	align-items: center;
+}
+
+@mixin form() {
+	$height: 50px;
+	
+	input {
+		width: 75%;
+		height: $height;
+		background-color: inherit;
+		color: $raise;
+		text-decoration-color: $raise;
+		text-align: center;
+		font-family: $ff-Itim;
+		font-size: 23px;
+		box-shadow: none;
+		border: none;
+		outline: none;
+		
+		&::selection {
+			border: none;
+			outline: none;
+		}
+	}
+}
+
+@mixin h1-cool-gradiant() {
+	h1 {
+		font-size: 90px;
+		background-image: linear-gradient(90deg, $energized, $slide, $happy, $offset);
+		background-clip: text;
+		color: transparent;
+	}
 }
 
 @function getMaxWidthHeightWithHeader($hw) {
@@ -132,6 +170,21 @@ button {
 	border: 1px solid $casual;
 	cursor: pointer;
 	@include center;
+}
+
+code {
+	font-family: $ff-Handlee;
+}
+
+select {
+	background-color: $free-guy;
+	height: 50px;
+	width: 6vh;
+	min-width: 200px;
+	text-align: center;
+	border: none;
+	outline: none;
+	border-radius: 10px;
 }
 
 nav.navbar {
@@ -207,8 +260,13 @@ nav.navbar {
 	}
 }
 
-code {
-	font-family: $ff-Handlee;
+.fetch {
+	height: 9vh;
+	width: 27vh;
+	border: $regular 5px solid;
+	border-radius: 5px;
+	font-family: $ff-Londrina-Shadow;
+	color: $regular;
 }
 
 .home {
@@ -223,15 +281,15 @@ code {
 			width: 75vw;
 		}
 		
+		@mixin pod() {
+			margin: $margin-around-pods;
+			padding: $padding-within-pods;
+			border-radius: 10px;
+			border: 1px solid $mid-happy;
+		}
+		
 		.pods {
 			display: flex;
-			
-			@mixin pod() {
-				margin: $margin-around-pods;
-				padding: $padding-within-pods;
-				border-radius: 10px;
-				border: 1px solid $mid-happy;
-			}
 			
 			.simulator {
 				.desktop {
@@ -370,6 +428,33 @@ code {
 				}
 			}
 		}
+		
+		.how {
+			@include pod();
+			padding: 0.5vh 3vh;
+			
+			h1 {
+				font-size: 5vh;
+				color: $weird;
+			}
+			
+			h2 {
+				font-size: 3vh;
+				font-weight: bolder;
+			}
+			
+			.mongo {
+				color: $offset;
+			}
+			
+			.express {
+				color: $up;
+			}
+			
+			.react {
+				color: $mrbeast;
+			}
+		}
 	}
 	
 	.mobile {
@@ -403,7 +488,7 @@ code {
 				min-height: 60vh;
 				
 				button.bey {
-					margin: 0 0 15% 0 ;
+					margin: 0 0 15% 0;
 					padding: 0;
 					border: none;
 					
@@ -506,6 +591,32 @@ code {
 				color: transparent;
 			}
 		}
+		
+		.how {
+			padding: 0.5vh 3vh;
+			
+			h1 {
+				font-size: 5vh;
+				color: $weird;
+			}
+			
+			h2 {
+				font-size: 3vh;
+				font-weight: bolder;
+			}
+			
+			.mongo {
+				color: $offset;
+			}
+			
+			.express {
+				color: $up;
+			}
+			
+			.react {
+				color: $mrbeast;
+			}
+		}
 	}
 }
 
@@ -514,11 +625,7 @@ code {
 		@include center;
 		
 		button {
-			height: 9vh;
-			width: 27vh;
 			border: $exhilarated 5px solid;
-			border-radius: 5px;
-			font-family: $ff-Londrina-Shadow;
 			color: $exhilarated;
 		}
 	}
@@ -554,7 +661,7 @@ code {
 		
 		.content {
 			width: 100vw;
-
+			
 			button {
 				color: $slide;
 			}
@@ -576,6 +683,212 @@ code {
 		
 		a {
 			color: $fill;
+		}
+	}
+}
+
+.lab {
+	.center {
+		@include h1-cool-gradiant;
+	}
+	
+	.form {
+		@include form
+	}
+	
+	.button {
+		height: getMaxWidthHeightWithHeader('h');
+		@include center;
+		
+		button {
+			border: $offset 5px solid;
+			color: $offset;
+		}
+	}
+	
+	.pods {
+		padding: 5px 10px;
+		display: grid;
+		grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+		margin-top: 10px;
+		gap: 1rem;
+		
+		.pod {
+			border: 2px $weird solid;
+			border-radius: 12px;
+			padding: 12px;
+			transition: $transition-fast-speed;
+			
+			.centerc {
+				@include center
+			}
+			
+			.center-p {
+				
+				border: none;
+				font-family: $ff-Mukta;
+				
+			}
+			
+			.column {
+				display: flex;
+				flex-direction: column;
+				align-items: center;
+				width: 50%;
+			}
+			
+			.l {
+				justify-content: flex-start;
+			}
+			
+			.r {
+				justify-content: flex-end;
+			}
+			
+			&:hover {
+				border-color: $happy;
+			}
+		}
+	}
+	
+	.battle {
+		height: 4vh;
+		width: 7vw;
+		padding: 0.5vh;
+		font-size: 3vh;
+		border: $free-guy 2px solid;
+		border-radius: 5px;
+		font-family: $ff-Londrina-Shadow;
+		color: $free-guy;
+	}
+	
+	.center {
+		.winner {
+			font-size: 45px;
+			background-image: linear-gradient(90deg, $offset, $happy, $slide, $energized);
+			background-clip: text;
+			color: transparent;
+		}
+	}
+}
+
+.names {
+	.center {
+		@include h1-cool-gradiant;
+	}
+	
+	.center-fetch {
+		height: getMaxWidthHeightWithHeader('h');
+		@include center;
+		
+		button {
+			font-size: 7vh;
+		}
+	}
+	
+	.pods {
+		padding: 5px 10px;
+		display: grid;
+		grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+		margin-top: 10px;
+		gap: 1rem;
+		color: $happy;
+		
+		.pod {
+			border: 2px $weird solid;
+			border-radius: 12px;
+			padding: 12px;
+			transition: $transition-fast-speed;
+			@include center;
+			flex-direction: column;
+			
+			&:hover {
+				border-color: $happy;
+			}
+		}
+	}
+	
+	.form {
+		@include form
+	}
+}
+
+.error404,
+.upComingFeature {
+	flex-direction: column;
+	height: getMaxWidthHeightWithHeader('h');
+	background-color: $mrbeast;
+	
+	* {
+		box-sizing: border-box;
+		position: relative;
+	}
+	
+	html {
+		font-size: 10px;
+	}
+	
+	body {
+		background: #00adef;
+		font-family: sans-serif;
+		font-size: 100%;
+		text-align: center;
+	}
+	
+	a {
+		color: #fff;
+		font-size: 3vmin;
+		opacity: .5;
+		text-decoration: none;
+	}
+	
+	a:hover {
+		opacity: 1;
+	}
+	
+	h1 {
+		animation: extrude 4s infinite step-end;
+		color: $weird;
+		display: block;
+		font: 700 20vmin/1 "Yanone Kaffeesatz", sans-serif;
+		letter-spacing: 1vmin;
+		margin: 2vmin auto;
+		text-transform: uppercase;
+		text-shadow: 0;
+	}
+	
+	@for $i from 1 through 2 { // iterate the animation delays for each nth-child
+		h1:nth-of-type(#{$i}) {
+			animation-delay: 1s + $i;
+		}
+	}
+	
+	@keyframes extrude {
+		0% {
+			text-shadow: 1px 1px $rober, // 3D extrusion
+			2px 2px $rober,
+			3px 3px $rober,
+			4px 4px $rober,
+			5px 5px $rober,
+			6px 6px $rober,
+			7px 7px $rober,
+			8px 8px $rober,
+			9px 9px $rober,
+			10px 10px $rober,
+			10px 11px $beast, // shadow
+			8px 12px $beast,
+			6px 13px $beast,
+			4px 14px $beast,
+			2px 15px $beast,
+			0px 16px $beast,
+			-2px 17px $beast,
+			-4px 18px $beast,
+			-6px 19px $beast,
+			-8px 20px $beast,
+			-10px 21px $beast;
+		}
+		25% {
+			text-shadow: none;
 		}
 	}
 }

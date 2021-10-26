@@ -11,13 +11,9 @@ router.get('/', async (req, res) => {
 	try {
 		// Getting the beyblades
 		const beyblades = await Beyblade.find();
-		let beyblade_json = {};
-
-		// Looping throughout the beyblades and appending it to the result
-		for (const beyblade of beyblades) beyblade_json[beyblade._id] = beyblade;
 
 		// Returning result
-		res.json(beyblade_json);
+		res.json(beyblades);
 	} catch (err) {
 		// Sending error
 		res.status(500).json({ message: err.message });

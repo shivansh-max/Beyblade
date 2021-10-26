@@ -6,7 +6,6 @@ import {
 	FaRegArrowAltCircleRight,
 } from 'react-icons/all';
 import Video from '../Public/Video';
-import Thanks from '../Public/Thanks';
 
 const buttonSize = 105;
 
@@ -17,7 +16,9 @@ function Desktop({setSongs, currentSong, setCurrentSong, songs}) {
 				{
 					songs === undefined || songs === null? (
 						<div className="button">
-							<button onClick={() => getMusic(setSongs)}><h1>Fetch Songs</h1></button>
+								<button className={"fetch"} onClick={() => getMusic(setSongs)}>
+									<h1>Fetch Songs</h1>
+								</button>
 						</div>
 					) : (
 						<div className={"content"}>

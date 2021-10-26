@@ -1,18 +1,11 @@
-import Router from "./Public/Router";
-
-/*
-	TODO: Chat
-	TODO: How
-
-	TODO: Battle
-	
-	DONE: Music
-	DONE: Home
-*/
+import React from 'react';
+import Router from './Public/Router';
 
 function App() {
+
 	return (
 		<div className="app">
+
 			<Router/>
 		</div>
 	);

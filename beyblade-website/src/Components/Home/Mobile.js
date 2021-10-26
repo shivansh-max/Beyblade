@@ -5,6 +5,7 @@ import Links from './Pods/Links/Links';
 import PassItOn from './Pods/PassItOn';
 import AboutTheMaker from './Pods/AboutTheMaker/AboutTheMaker';
 import Logo from '../../Public/Logo';
+import How from './Pods/How/How';
 
 function Mobile(props) {
 	return (
@@ -17,6 +18,8 @@ function Mobile(props) {
 			<AboutTheMaker/>
 			<hr/>
 			<Links />
+			<hr/>
+			<How />
 			<hr/>
 			<PassItOn />
 			<hr/>

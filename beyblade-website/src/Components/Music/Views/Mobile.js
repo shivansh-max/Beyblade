@@ -6,7 +6,6 @@ import {
 	FaRegArrowAltCircleRight,
 } from 'react-icons/all';
 import Video from '../Public/Video';
-import Thanks from '../Public/Thanks';
 
 const buttonSize = 50;
 

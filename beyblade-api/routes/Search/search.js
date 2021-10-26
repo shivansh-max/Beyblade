@@ -1,7 +1,6 @@
 // Imports
 const express = require('express');
 const Beyblade = require('../../models/beyblade');
-const convert = require('../Convert');
 const escapeRegex = require('./../../escapeRegex')
 
 // Creating router
@@ -16,8 +15,7 @@ router.get('/', async (req, res) => {
 		// Getting beyblades
 		const beys = await Beyblade.find({"name": regex});
 
-		// Returning the converted beys
-		res.status(200).json(convert(beys));
+		res.status(200).json(beys);
 	} catch (err) {
 		// Sending error
 		res.status(500).json({message: err.message});

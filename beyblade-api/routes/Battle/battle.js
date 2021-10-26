@@ -6,7 +6,7 @@ const check = require("./Check");
 // Creating router
 const router = express.Router();
 
-// Battle
+// Lab
 router.get('/', async (req, res) => {
     // Creating vars bey1 and bey2
     let bey1, bey2;

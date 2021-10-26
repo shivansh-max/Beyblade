@@ -6,9 +6,8 @@ function Links({open}) {
 		<ul className={`links ${open ? 'open' : ''} `}>
 			<Link url={'/home'} text={'Home'}/>
 			<Link url={'/music'} text={'Music'}/>
-			<Link url={'/battle'} text={'Battle'}/>
-			<Link url={'/chat'} text={'Chat'}/>
-			<Link url={'/how'} text={'How'}/>
+			<Link url={'/names'} text={'Names'}/>
+			<Link url={'/lab'} text={'Lab'}/>
 			<li id="mobile-Login">
 				<div className="user_login_signup">
 					<button><h1>Login</h1></button>
